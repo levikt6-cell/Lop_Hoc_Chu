@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+.env*
+!.env.example
+.claude/settings.local.json
+settings.json
+
+# nhạc nền: file lớn, có thể có bản quyền, không đưa lên git
+public/assets/audio/
+
+# sổ lớp (câu đã hỏi, bảng vàng tuần) lưu trên máy chủ kênh
+data/
